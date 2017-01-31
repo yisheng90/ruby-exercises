@@ -9,3 +9,9 @@
 # > 5
 # > 10
 # > 15
+
+def multiply_by array, multiplier
+  return array.map {|num| num*multiplier}
+end
+
+puts multiply_by [1, 2, 3], 5

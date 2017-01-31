@@ -9,3 +9,9 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+def p_times string, times
+  times.times {puts string}
+end
+
+p_times('Hey There', 3)

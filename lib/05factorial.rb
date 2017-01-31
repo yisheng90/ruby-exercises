@@ -9,3 +9,15 @@
 #
 # > 120
 #
+def factorial num
+  result = 1
+
+  until num == 1
+    result = result * (num)
+    num -= 1
+  end
+
+  return result
+end
+
+puts factorial 5
